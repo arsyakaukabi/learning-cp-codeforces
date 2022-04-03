@@ -1,7 +1,3 @@
-a, b = map(int, input().split())
-count = 0
-while a <= b:
-    count += 1
-    a *= 3
-    b *= 2
-print(count)
+a,b=map(int, input().split());t=0
+while (3/2)**t<=(b/a):t+=1 
+print(t)
