@@ -1,1 +1,0 @@
-for n in[*open(0)][2::2]:print(('maomao90','errorgorn')[sum([int(i)-1 for i in n.split()])%2])
